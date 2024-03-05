@@ -9,6 +9,7 @@ This site uses a bootstrap theme (https://startbootstrap.com/theme/new-age/) cre
 
 ## Download and Installation
 
+
 To begin using this site, choose one of the following options to get started:
 
 * Clone the repo: `git clone git@github.com:Wycliffe-USA/mpdx-get.git`
