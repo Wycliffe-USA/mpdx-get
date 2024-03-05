@@ -137,12 +137,19 @@ html(lang='en')
                     .col-lg-8.order-lg-0.mb-5.mb-lg-0
                         .container-fluid.px-5
                             .row.gx-5
+                                .col-md-6.mb-5.mb-md-0
+                                    .text-center
+                                        button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0(onclick='window.location.href="'+ LOGIN_URL +'";')
+                                            span.d-flex.align-items-center
+                                                span.small(href=""+ LOGIN_URL +"") Login
+                                        h3.font-alt Login using the Desktop browser
+                            .row
                                 .col-md-6.mb-5
-                                    // Feature item
                                     .text-center
                                         i.bi-phone.icon-feature.text-gradient.d-block.mb-3
                                         h3.font-alt Mobile Apps Coming Soon
                                         p.text-muted.mb-0 We're working on getting our mobile apps approved for IOS and Android.
+
                     .col-lg-4.order-lg-1
                         // Features section device mockup
                         .features-device-mockup
