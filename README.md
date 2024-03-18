@@ -37,4 +37,7 @@ Clone the source files of the theme and navigate into the theme's root directory
 * `npm run start:debug` runs the project in debug mode
 * `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
 
+#### Privacy Policy and Terms
+MyPD terms and privacy policy pages are configured under src/pug/.  The MD file is a markdown version of the page.  Nothing is really done with this file, but is used for easy editing.  The .pug files are used to make the html pages.  Use an online converter to update and then convert the markdown into pug.  The pug files also contain some site configuration for the menu and formatting.
+
 Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-new-age/blob/master/LICENSE) license.
