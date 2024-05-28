@@ -139,31 +139,22 @@ html(lang='en')
                             .row.gx-5
                                 .col-md-6.mb-5.mb-md-0
                                     .text-center
+                                        h3.font-alt Login using the Desktop browser
                                         button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0(onclick='window.location.href="'+ LOGIN_URL +'";')
                                             span.d-flex.align-items-center
                                                 span.small(href=""+ LOGIN_URL +"") Login
-                                        h3.font-alt Login using the Desktop browser
-                            .row
                                 .col-md-6.mb-5
                                     .text-center
-                                        i.bi-phone.icon-feature.text-gradient.d-block.mb-3
-                                        h3.font-alt Mobile Apps Coming Soon
-                                        p.text-muted.mb-0 We're working on getting our mobile apps approved for IOS and Android.
+                                        //- i.bi-phone.icon-feature.text-gradient.d-block.mb-3
+                                        h3.font-alt Get the app now!
+                                        a(href='https://apps.apple.com/us/app/wycliffe-mypd/id6477405004')
+                                            img.app-badge(src='assets/img/app-store-badge.svg', alt='Wycliffe MyPD iOS App')
+                                        p.text-muted.mb-0 Our Android app will be available soon.
 
                     .col-lg-4.order-lg-1
                         // Features section device mockup
                         .features-device-mockup
                             img(src='assets/img/mypd-iphone-contacts.png', alt='Wycliffe MyPD Dashboard', height='100%')
-
-        //- // App badge section
-        //- section#download.bg-gradient-primary-to-secondary
-        //-     .container.px-5
-        //-         h2.text-center.text-white.font-alt.mb-4 Get the app now!
-        //-         .d-flex.flex-column.flex-lg-row.align-items-center.justify-content-center
-        //-             a.me-lg-3.mb-4.mb-lg-0(href='#!')
-        //-                 img.app-badge(src='assets/img/google-play-badge.svg', alt='...')
-        //-             a(href='#!')
-        //-                 img.app-badge(src='assets/img/app-store-badge.svg', alt='...')
 
         // Footer
         footer.bg-black.text-center.py-5
